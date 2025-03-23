@@ -22,7 +22,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.View
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.dashboard_item, parent, false);
+        View view = LayoutInflater.from(context).inflate(R.layout.dashboard_tem, parent, false);
         return new ViewHolder(view);
     }
 

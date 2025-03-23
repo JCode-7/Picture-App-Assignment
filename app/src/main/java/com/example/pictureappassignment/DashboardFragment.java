@@ -1,7 +1,7 @@
 package com.example.pictureappassignment;
 
 import android.os.Bundle;
-import com.example.pictureappassignment.DashboardItem;
+import com.example.pictureappassignment.Dashboardtem;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,7 +23,7 @@ public class DashboardFragment extends Fragment {
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        List<DashboardItem> items = new ArrayList<>();
+        List<Dashboardtem> items = new ArrayList<>();
         items.add(new Dashboardtem("Walking", R.drawable.ic_walking));
         items.add(new Dashboardtem("Boating", R.drawable.ic_boating));
         items.add(new Dashboardtem("Bus", R.drawable.ic_bus));
